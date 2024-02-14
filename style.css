@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    height: 96vh;
+    place-content: center;
+  }
+  
+  .card {
+    display: grid;
+    width: 75vmin;
+    height: 42.86vmin;
+    background-color: black;
+    border-radius: 10px;
+    grid-template: 1fr / 50% 50%;
+    align-items: center;
+  }
+  
+  .icons-container {
+    display: grid;
+    width: 65%;
+    height: 65%;
+    justify-self: right;
+    margin-right: 15%;
+    gap: 10px;
+    grid-template: 1fr 1fr / 2fr 2fr;
+  }
+  
+  .icon {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .icon-x {
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    font-size: 3.5vmin;
+  }
